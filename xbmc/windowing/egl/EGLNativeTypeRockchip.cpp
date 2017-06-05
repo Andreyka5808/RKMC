@@ -193,6 +193,9 @@ bool CEGLNativeTypeRockchip::SetNativeResolution(const RESOLUTION_INFO &res)
         case 3840:
           SetDisplayResolution("3840x2160p-30");
           break;
+        case 4096:
+          SetDisplayResolution("4096x2160p-30");
+          break;
         default:
           SetDisplayResolution("1920x1080p-30");
           break;
@@ -203,6 +206,9 @@ bool CEGLNativeTypeRockchip::SetNativeResolution(const RESOLUTION_INFO &res)
       {
         case 3840:
           SetDisplayResolution("3840x2160p-25");
+          break;
+        case 4096:
+          SetDisplayResolution("4096x2160p-25");
           break;
         default:
           SetDisplayResolution("1920x1080p-25");
